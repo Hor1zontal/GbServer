@@ -1,0 +1,27 @@
+database:
+  address: mongodb://aliens:RcN0cXbaOmlIJmfw@dds-wz9a33239a770da433290.mongodb.rds.aliyuncs.com:3717/dev_gbaxc_game
+  name: dev_gbaxc_game
+#aliens
+#wxConfig:
+#  Token:
+#  AppID: wx1c538979db1d292c
+#  AppSecret: 89468399dde0efe4d2fcd188ea144dfe
+#  EncodingAESKey:
+
+#leiting
+wxConfig:
+  Token:
+  AppID: wx8b92a217513cd452
+  AppSecret: f536276c3d6876e3b4be855d501e5ca8
+  EncodingAESKey:
+
+http: :8700
+
+JWTSecret: t8ySlK3dS^HeIpKb
+JWTExpired: 2592000
+
+isSign: true
+signExpired: 3600
+signKey: ZVWBL$xy7CrC3xbD
+
+isCors: true
